@@ -1,0 +1,15 @@
+Create new bash script (see setup-gitlab.sh)
+
+Create new directory in home
+  cd /home/ec2-user
+  mkdir scripts
+
+Connect via WinSCP and copy setup-gitlab.sh to /home/ec2-user/scripts
+
+Add execute permissions to the script
+  cd scripts
+  chmod +x setup-gitlab.sh
+
+Execute the script
+  sh setup-gitlab.sh
+  
